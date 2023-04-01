@@ -1,0 +1,100 @@
+/* Write your CSS here */
+.container {
+  max-width: 1110px;
+  margin: auto;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  min-height: 100vh;
+  padding-top: 30px;
+  padding-right: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.coin-container {
+  background-color: #ffffff;
+  height: 80vh;
+  width: 340px;
+
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .coin-container {
+    width: 200px;
+    height: 60vh;
+    padding-top: 20px;
+  }
+}
+.heading {
+  color: #a35200;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 20px;
+  }
+}
+.head-tail {
+  color: #334155;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+@media screen and (max-width: 768px) {
+  .head-tail {
+    font-size: 13px;
+  }
+}
+.image {
+  width: 150px;
+  height: 150px;
+}
+@media screen and (max-width: 768px) {
+  .image {
+    width: 100px;
+    height: 100px;
+  }
+}
+.count-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.count {
+  color: #475569;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-right: 25px;
+}
+@media screen and (max-width: 768px) {
+  .count {
+    margin-right: 10px;
+    font-size: 10px;
+  }
+}
+.button {
+  color: #a35200;
+  background-color: #f9d423;
+  padding: 10px;
+  padding-left: 14px;
+  padding-right: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  border: none;
+  border-radius: 7px;
+}
+@media screen and (max-width: 768px) {
+  .button {
+    padding: 6px;
+    font-size: 12px;
+  }
+}
